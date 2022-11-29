@@ -47,6 +47,7 @@ class IndianPoker():
             self.P1chip-=(self.P2bet-self.P1bet)
             self.P1bet=self.P2bet
             self.roundResult()
+            
         if key=="Call2":
             self.P2chip-=(self.P1bet-self.P2bet)
             self.P2bet=self.P1bet
