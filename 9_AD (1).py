@@ -3,6 +3,9 @@ class IndianPoker():
     def __init__(self):
         self.resetGame()
 
+        
+        
+        
     def nextRound(self):
         if len(self.numlist)==0 or self.P1chip<1 or self.P2chip<1:
             self.Result #???이건 무슨 코드지??
